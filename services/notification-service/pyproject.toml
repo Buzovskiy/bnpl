@@ -7,7 +7,10 @@ authors = [
     { name = "Buzovskyi Vitalii", email = "buzovskiy.v@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi>=0.141.1",
+    "uvicorn>=0.54.0",
+]
 
 [project.scripts]
 notification-service = "notification_service:main"
