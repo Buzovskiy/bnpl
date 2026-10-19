@@ -77,7 +77,7 @@ wheels = [
 ]
 
 [[package]]
-name = "notification-service"
+name = "notification"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

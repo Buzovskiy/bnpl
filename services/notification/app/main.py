@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 
 app = FastAPI(
-    title="BNPL Order Service",
+    title="BNPL Notification Service",
     version="0.1.0",
 )
 
@@ -22,6 +22,6 @@ class HealthResponse(BaseModel):
 async def health_check() -> HealthResponse:
     return HealthResponse(
         status="healthy",
-        service="order-service",
+        service="notification",
         version="0.1.0",
     )

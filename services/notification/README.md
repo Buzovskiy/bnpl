@@ -1,6 +1,6 @@
 Инициализация проекта
 
-cd services/order-service
+cd services/notification
 
 # 1. Установить Python 3.12 через uv, если его ещё нет
 uv python install 3.12
