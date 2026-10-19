@@ -77,7 +77,7 @@ wheels = [
 ]
 
 [[package]]
-name = "service"
+name = "order"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
