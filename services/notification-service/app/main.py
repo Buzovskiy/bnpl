@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 
 app = FastAPI(
-    title="BNPL Order Service",
+    title="BNPL Notification Service",
     version="0.1.0",
 )
 
